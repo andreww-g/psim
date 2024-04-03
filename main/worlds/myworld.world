@@ -1,18 +1,11 @@
 {
     "maps": [
         {
-            "fileName": "maps/simplemap.tmx",
-            "height": 640,
-            "width": 800,
+            "fileName": "maps/dungeon.tmx",
+            "height": 480,
+            "width": 480,
             "x": 64,
             "y": -160
-        },
-        {
-            "fileName": "maps/simplemap2.tmx",
-            "height": 640,
-            "width": 640,
-            "x": -160,
-            "y": 480
         }
     ],
     "onlyShowAdjacentMaps": false,
