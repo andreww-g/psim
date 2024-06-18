@@ -20,7 +20,8 @@
     "emitDecoratorMetadata": true,
     "types": [
       "node",
-      "vite/client"
+      "vite/client",
+      "pinia"
     ],
     "resolveJsonModule": true
   },

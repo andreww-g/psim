@@ -5,7 +5,14 @@ const player: RpgPlayerHooks = {
   onConnected (player: RpgPlayer) {
     player.name = 'Wizard';
     player.setGraphic('hero');
-    player.setComponentsTop(Components.text('{name}'));
+    player.setComponentsTop(Components.text('{name}', {
+      fill: '#000000',
+      fontSize: 20,
+    }));
+    player.setComponentsTop(
+      Components.hpBar(), {
+        width: 42,
+      });
   },
   onInput (player: RpgPlayer, { input }) {
     if (input == Control.Back) {
