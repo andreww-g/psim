@@ -1,0 +1,13 @@
+name = 'Final Fantasy'
+
+modules = [
+    './main',
+    '@rpgjs/mobile-gui',
+    '@rpgjs/default-gui',
+    '@rpgjs/gamepad'
+]
+
+[start]
+map = 'dungeon'
+graphic = 'hero'
+hitbox = [16, 16]
